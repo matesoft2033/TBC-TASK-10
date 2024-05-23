@@ -1,0 +1,56 @@
+@mixin flex () {
+    display: flex;
+    flex-direction: row;
+}
+@mixin flex1() {
+    display: flex;
+    justify-content: space-around;
+}
+@mixin font-family () {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+@mixin p () {
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+    font-size: $mediumplus-font-size;
+    position: relative;
+    bottom: 50px;
+    color: #FFFFFF;
+}
+@mixin div () {
+    width: 362px;
+    height: 171px;
+    background-color: #FFFFFF;
+}
+@mixin paragraph () {
+    font-family: "Roboto", sans-serif;
+    font-size: $small-font-size;
+    color: #8A8787
+}
+@mixin h1 () {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: $large-font-size;
+    position: $position;
+    top: 76px;
+}
+@mixin width-height () {
+    width: $width;
+    height: $height;
+}
+@mixin width-height-2 () {
+    width: 362px;
+    height: 212px;
+}
+@mixin flexie () {
+    display: flex;
+    flex-direction: column;
+    position: $position;
+}
+@mixin stili () {
+    font-family: "Roboto", sans-serif;
+    font-size: $small-font-size;
+    color: #818687;
+    padding: 10px;
+}

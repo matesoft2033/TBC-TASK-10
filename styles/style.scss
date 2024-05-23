@@ -1,0 +1,197 @@
+@import "resetstyle";
+@import "mixins";
+@import "variables";
+body {
+    background-color: #F1F1F1;
+    overflow-x: hidden;
+      
+}
+header {
+    @include flex;
+    position: fixed;
+    z-index: 1;
+    top: 21px;
+    left: $left;
+    p {
+        position: $position;
+        margin-right: 35px;
+        @include font-family;
+        font-size: $medium-font-size;
+    }
+    img {
+        position: $position;
+        bottom: 7px;
+    }
+}
+main {
+    position: $position;
+    left: $left;
+    h1 {
+        @include h1;
+    }
+    #div1 {
+        display: flex;
+        justify-content: flex-start;
+        img {
+            position: $position;
+            top: 100px;
+            margin-right: 40px;
+        }
+    }
+    #div2 {
+        @include flex1;
+    #p1 {
+        @include p;
+        left: -70px;
+        bottom: 50px;
+    }
+    #p2 {
+        @include p;
+        left: -150px;
+    }
+    #p3 {
+        @include p;
+        left: -190px;
+    }
+}
+    #bigdiv {
+        display: flex;
+        justify-content: flex-start;
+        position: $position;
+        bottom: 32px;
+    }
+    #div3 {
+        @include div;
+        margin-right: 40px;
+    }
+    #div4 {
+        @include div;
+    }
+    #div5 {
+        @include div;
+        margin-left: 40px;
+    }
+    #thebiggestdiv {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        bottom: 140px;
+    }
+    #div6 {
+        margin-right: 65px;
+        p {
+            @include paragraph;
+            margin-left: 20px
+        }
+        img {
+            position: $position;
+            left: 20px;
+            top: 15px
+        }
+    }
+    #div7 {
+        p {
+            @include paragraph;
+            margin-left: 15px;
+        }
+        img {
+            position: $position;
+            left: 15px;
+            top: 15px;
+        }
+    }
+    #div8 {
+        margin-right: 65px;
+        p {
+            @include paragraph;
+            margin-left: 80px;
+        }
+        img {
+            position: $position;
+            left: 80px;
+            top: 15px;
+        }
+    }
+}
+article {
+    h1 {
+        @include h1;
+    }
+    #div9 {
+        display: flex;
+        flex-direction: column;
+        #img9 {
+            @include width-height;
+            position: $position;
+            top: 120px;
+        }
+        #img10 {
+            @include width-height;
+            position: $position;
+            top: 160px;
+        }
+    }
+    #div10 {
+        position: absolute;
+        display: grid;
+        left: 840px;
+        bottom: 100px;
+    }
+    #img11 {
+        @include width-height-2;
+    }
+    #img12 {
+        @include width-height-2;
+        position: $position;
+        top: 70px;
+    }
+    #img13 {
+        @include width-height-2;
+        position: $position;
+        top: 170px;
+    }
+}
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #243043;
+    #div10 {
+        @include flexie;
+        top: 67px;
+        left: 137px;
+        p {
+            @include stili;
+        }
+    }
+    #div11 {
+        @include flexie;
+        left: 350px;
+        top: -80px;
+        p {
+            @include stili;
+        }
+    }
+    #div12 {
+        @include flexie;
+        left: 560px;
+        bottom: 230px;
+        p {
+            @include stili;
+        }
+    }
+    #div13 {
+        position: $position;
+        bottom: 368px;
+        left: 770px;
+    p {
+        @include font-family;
+        color: #FFFFFF; 
+        font-size: $small-font-size;
+    }
+}
+    #div14 {
+        position: $position;
+        bottom: 385px;
+        left: 1270px;
+    }
+}

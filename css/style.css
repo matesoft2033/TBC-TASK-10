@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #F1F1F1;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 1;
+  top: 21px;
+  left: 60px;
+}
+header p {
+  position: relative;
+  margin-right: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+header img {
+  position: relative;
+  bottom: 7px;
+}
+
+main {
+  position: relative;
+  left: 60px;
+}
+main h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  position: relative;
+  top: 76px;
+}
+main #div1 {
+  display: flex;
+  justify-content: flex-start;
+}
+main #div1 img {
+  position: relative;
+  top: 100px;
+  margin-right: 40px;
+}
+main #div2 {
+  display: flex;
+  justify-content: space-around;
+}
+main #div2 #p1 {
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 50px;
+  color: #FFFFFF;
+  left: -70px;
+  bottom: 50px;
+}
+main #div2 #p2 {
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 50px;
+  color: #FFFFFF;
+  left: -150px;
+}
+main #div2 #p3 {
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  position: relative;
+  bottom: 50px;
+  color: #FFFFFF;
+  left: -190px;
+}
+main #bigdiv {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 32px;
+}
+main #div3 {
+  width: 362px;
+  height: 171px;
+  background-color: #FFFFFF;
+  margin-right: 40px;
+}
+main #div4 {
+  width: 362px;
+  height: 171px;
+  background-color: #FFFFFF;
+}
+main #div5 {
+  width: 362px;
+  height: 171px;
+  background-color: #FFFFFF;
+  margin-left: 40px;
+}
+main #thebiggestdiv {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 140px;
+}
+main #div6 {
+  margin-right: 65px;
+}
+main #div6 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #8A8787;
+  margin-left: 20px;
+}
+main #div6 img {
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+main #div7 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #8A8787;
+  margin-left: 15px;
+}
+main #div7 img {
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+main #div8 {
+  margin-right: 65px;
+}
+main #div8 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #8A8787;
+  margin-left: 80px;
+}
+main #div8 img {
+  position: relative;
+  left: 80px;
+  top: 15px;
+}
+
+article h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  position: relative;
+  top: 76px;
+}
+article #div9 {
+  display: flex;
+  flex-direction: column;
+}
+article #div9 #img9 {
+  width: 758px;
+  height: 430px;
+  position: relative;
+  top: 120px;
+}
+article #div9 #img10 {
+  width: 758px;
+  height: 430px;
+  position: relative;
+  top: 160px;
+}
+article #div10 {
+  position: absolute;
+  display: grid;
+  left: 840px;
+  bottom: 100px;
+}
+article #img11 {
+  width: 362px;
+  height: 212px;
+}
+article #img12 {
+  width: 362px;
+  height: 212px;
+  position: relative;
+  top: 70px;
+}
+article #img13 {
+  width: 362px;
+  height: 212px;
+  position: relative;
+  top: 170px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #243043;
+}
+footer #div10 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 67px;
+  left: 137px;
+}
+footer #div10 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #818687;
+  padding: 10px;
+}
+footer #div11 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 350px;
+  top: -80px;
+}
+footer #div11 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #818687;
+  padding: 10px;
+}
+footer #div12 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 560px;
+  bottom: 230px;
+}
+footer #div12 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #818687;
+  padding: 10px;
+}
+footer #div13 {
+  position: relative;
+  bottom: 368px;
+  left: 770px;
+}
+footer #div13 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+footer #div14 {
+  position: relative;
+  bottom: 385px;
+  left: 1270px;
+}
